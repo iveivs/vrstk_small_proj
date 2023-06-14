@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    /* margin: 0 auto; */
+    max-height: 1204px;
+    min-height: 100vh;
+
+    background-color: #6C7177;
+    background-image: url("./../img/bg_header.jpg");
+}
+
+.container {
+    position: relative;
+    width: 1204px;
+    margin: 0 auto;
+
+
+}
+
+.header-wrapper {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 80px;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.logo-text {
+    text-transform: uppercase;
+}
+.nav__destinations {
+    margin-right: 40px;
+    cursor: pointer;
+}
+.nav__destinations:hover {
+    filter: brightness(85%);
+}
+.nav__activities {
+    margin-right: 40px;
+    cursor: pointer;
+}
+.nav__activities:hover {
+    filter: brightness(85%);
+}
+
+.nav__about {
+    margin-right: 40px;
+    cursor: pointer;
+}
+.nav__about:hover {
+    filter: brightness(85%);
+}
+
+.contacts {
+    cursor: pointer;
+}
+.contacts:hover {
+    filter: brightness(85%);
+}
+
+.img-logo {
+    margin-right: 10px;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+}
+
+.burger {
+    padding-top: 10px;
+    width: 30px;
+    align-items: center;
+    
+}
+
+.burger span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 4px;
+}
+
+.title-wrapper {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.subtext-title {
+    font-size: 30px;
+    font-weight: medium;
+    text-transform: uppercase;
+    opacity: 70%;
+    letter-spacing: 25px;
+}
+
+.text-title {
+    font-size: 240px;
+    line-height: 180px;
+    font-weight: bold;
+    opacity: 80%;
+}
+
+.social {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 360px;
+}
+.facebook {
+    margin-bottom: 10px;
+}
+.insta {
+    margin-bottom: 10px;
+}
